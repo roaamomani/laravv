@@ -1,0 +1,71 @@
+.student-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .student-info-header {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .student-info-content {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .student-main-info {
+    flex: 1;
+    border-right: 2px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .student-main-info h2 {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .student-main-info p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin: 5px 0;
+  }
+  
+  .student-art-info {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .student-art-info h3 {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .student-art-info h4 {
+    font-size: 1.2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .student-art-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .student-art-info li {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
